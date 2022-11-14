@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>latihan DOM</title>
+		<style>
+			html {
+				height: 100vh;
+			}
+			body {
+				/* display: flex; */
+				margin: auto;
+				text-align: center;
+				width: 100%;
+				height: 100%;
+			}
+			.ganti-warna {
+				background-color: violet;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Latihan DOM</h1>
+		<br />
+		<section id="btn">
+			<button class="GantiWarna">Ganti Warna Violet</button>
+			<br />
+			<br />
+			<input type="color" id="color" />
+			<br />
+			<br />
+			<span id="textRed">0</span>
+			<br />
+			<input type="range" id="rangeRed" min="0" max="255" />
+			<br />
+			<span id="textGreen">0</span>
+			<br />
+			<input type="range" id="rangeGreen" min="0" max="255" />
+			<br />
+			<span id="textBlue">0</span>
+			<br />
+			<input type="range" id="rangeBlue" color="red" min="0" max="255" />
+			<br />
+		</section>
+		<section id="range"></section>
+		<script src="latihanDOM.js"></script>
+	</body>
+</html>
